@@ -1,0 +1,180 @@
+/* styles.css */
+html {
+    width: 100vw;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color:#004d40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.app-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .app-card {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+
+  .app-card img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .app-card .app-details {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .app-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .app-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .app-card a {
+    text-decoration: none;
+    background-color: #0071e3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .app-card a:hover {
+    background-color: #005bb5;
+  }
+
+  footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer ul li {
+    padding: 5px 0;
+  }
+
+  footer ul li a {
+    text-decoration: none;
+    color: #0071e3;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  footer ul li a:hover {
+    color: #005bb5;
+  }
+
+  .job-board {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+.intro {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e0f7fa;
+}
+
+.jobs,
+.repos {
+  padding: 2rem;
+  background-color: white;
+}
+
+.jobs h2,
+.repos h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.jobs ul,
+.repos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.jobs li,
+.repos li {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.jobs h3 {
+  margin: 0;
+  color: #00796b;
+}
+
+.repos ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.repos li {
+  background: none;
+  border: none;
+  margin: 0.5rem 0;
+}
+
+.repos li a {
+  text-decoration: none;
+  color: #00796b;
+  font-size: 1.2rem;
+}
+
+.repos li a:hover {
+  color: #004d40;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+}
